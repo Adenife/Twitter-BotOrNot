@@ -5,18 +5,13 @@ import tweepy
 
 from datetime import datetime
 
-# twitter_keys = {
-#     'consumer_key': 'XXXXXXXXXX',
-#     'consumer_secret': 'XXXXXXXXXX',
-#     'access_token_key': 'XXXXXXXXXX',
-#     'access_token_secret': 'XXXXXXXXXX'
-# }
 twitter_keys = {
-    'consumer_key': 'UZlpukxO2V83q5xOYfdwhApRI',
-    'consumer_secret': '0KmjOzJDHxwf6ZFm38Rm1r8pJkmkGPKItSQgerCxhdA4q2gPAj',
-    'access_token_key': '3749410335-Uin7wBdkZr4gxXfHxD1d37vQNBV5N6rWi5IGuTX',
-    'access_token_secret': 'CRgby9SgQ9ALzDg1267jtHVDlvHvc5cwr0pGU7d4wJKzk'
+    'consumer_key': 'XXXXXXXXXX',
+    'consumer_secret': 'XXXXXXXXXX',
+    'access_token_key': 'XXXXXXXXXX',
+    'access_token_secret': 'XXXXXXXXXX'
 }
+
 
 # Get fully-trained XGBoostClassifier model
 with open('model.pickle', 'rb') as read_file:
